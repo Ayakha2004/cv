@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zilugile quku</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            </div>
+            <div class="name">
+                <h1>Zilungile Nquku</h1>
+                <p>Web Developer</p>
+            </div>
+        </header>
+
+        <section class="contact">
+            <h2>Contact Information</h2>
+            <ul>
+                <li>Email: ayakazilugile20@gmail.com</li>
+                <li>Phone: 0638455848</li>
+            </ul>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2><section class="skills">
+    <h2>Technical Skills</h2>
+    <ul>
+        <li><strong>Programming Languages:</strong> html, css, SQL</li>
+        <li><strong>Web Development:</strong> HTML, CSS</li>
+        <li><strong>Database Management:</strong> MySQL</li>
+        <li><strong>Version Control:</strong> GitHub</li>
+        <li><strong>Operating Systems:</strong> Windows, macOS</li>
+        
+    </ul>
+
+    <h2>Soft Skills</h2>
+    <ul>
+        <li>Problem-solving & critical thinking</li>
+        <li>Team collaboration & communication</li>
+        <li>Time management & project management</li>
+        <li>Adaptability & continuous learning</li>
+    </ul>
+        </section>
+
+        <section class="experience">
+            <h2>Work Experience</h2>
+            <div class="job">
+                <h3>skills developmet- dynamidna</h3>
+                <p><strong>octoer 2024 - jan 2025</strong></p>
+                <ul>
+                    <li>microsoft programme(az-900& dp-900)</li>
+                   </li>
+                </ul>
+            </div>
+
+            </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            <div class="diploma">
+                <h3>diploma in ict i applications development</h3>
+                completed: may 2024</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location and Weather</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        .weather-info {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        .loading {
+            color: #007bff;
+        }
+        .error {
+            color: #ff4d4d;
+        }
+    </style>
+</head>
+<body>
+    <h1>Get my Location and Weather</h1>
+    <div id="location-weather" class="weather-info">
+        <p class="loading">Loading location and weather...</p>
+    </div>
+
+    <script>
+        const weatherApiKey = 'd4e1ea43413d58cd9455604ee9ff6e3';
+
+        function getLocation(d4e1ea43413d58cd9455604ee9ff6e3) {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition();
+            } else {
+                document.getElementById('location-weather').innerHTML
+            }
+        }
+
+     
+
